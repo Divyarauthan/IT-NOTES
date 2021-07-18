@@ -1,6 +1,7 @@
 <html>
 <head>
     <title>POLYNOTES</title>
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet"type="text/css"href="C:\Users\divya\Documents\dibu\dd\dibrau\project2/1.css">
 </head>
 <body>
@@ -8,69 +9,34 @@
     <h1 align="center">
         IT-POLY-NOTES
     </h1>
-  <div class="topnav"id="myTopnav">
-    <div class="Dropdown">
-        <button class="dropbtn" align="center">MENU
-        <i class="fa fa-caret-down"></i>
-        
-        </button>
-        <div class="Dropdown-content">
-      <a href="index.html">Multimedia-Application</a>
-      <a href="data1.html">Data Warehouse & Mining</a>
-      <a href="web.html">Advance Web Programming </a>
-      <a href="mob.html">Mobile Computing</a>
-      <a href="dot.html">DOT NET Programming</a>
-      </div>
-      </div>
-      <!--
-      <div class="Dropdown">
-      <button class="dropbtn">5th-SEM
-      <i class="fa fa-caret-down"></i>
-      
-      </button>
-      <div class="Dropdown-content">
-        <a href="#">SUBJECT6</a>
-        <a href="#">SUBJECT5</a>
-        <a href="#">SUBJECT4</a>
-      </div>
-  </div>
-  <div class="Dropdown">
-    <button class="dropbtn">4th-SEM
-    <i class="fa fa-caret-down"></i>
-    
-    </button>
-    <div class="Dropdown-content">
-      <a href="#">SUBJECT6</a>
-      <a href="#">SUBJECT5</a>
-      <a href="#">SUBJECT4</a>
-    </div>
-</div>
-<div class="Dropdown">
-    <button class="dropbtn">3rd-SEM
-    <i class="fa fa-caret-down"></i>
-    
-    </button>
-    <div class="Dropdown-content">
-      <a href="#">SUBJECT6</a>
-      <a href="#">SUBJECT5</a>
-      <a href="#">SUBJECT4</a>
-    </div>
-</div>
--->
- <a href="#about">About</a>
-   </div>
-
-<script>
+    <script>
     function myFunction(){
-        var x= document.getELementById("myTopnav");
-        if(x.className==="topnav"){
-            x.className +="responsive";
-        }
-        else{
-            x.className="topnav";
-        }
+      var x=document.getElementById("menu");
+      if(x.style.display=="block"){
+        x.style.display="none";
+      }
+      else{
+        x.style.display="block";
+      }
     }
-</script>
+  </script>
+ 
+  <div class="nav-bar">
+    <img src="dib.png">
+    <div class="menu-right">
+      <span onclick="myFunction()">&#9776;</span>
+<ul id="menu">
+  <li><a href="index.html">Multimedia-Application</a></li>
+  <li><a href="data1.html">Data Warehouse & Mining</a></li>
+  <li><a href="web.html">Advance Web Programming </a></li>
+  <li><a href="mob.html">Mobile Computing</a></li>
+  <li><a href="dot.html">DOT NET Programming</a></li>
+</ul>
+</div>
+  </div>
+
+        
+   
 
  <marquee behavior="alternate" bgcolor="white" direction="right" scrollamount="10"><h2>MOBILE-COMPUTING</h2></marquee>
  <h3>About Mobile-Computing:</h3><p>the concept of wireless communication technologs and the proliferation of portable computing devices have made 
